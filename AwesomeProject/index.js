@@ -8,3 +8,5 @@ import {name as appName} from './app.json';
 
 AppRegistry.registerComponent(appName, () => App);
 //hello
+//git add . && git commit -am "commit from college" && git push origin main
+//git pull origin main
