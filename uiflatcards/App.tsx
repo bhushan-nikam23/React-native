@@ -3,7 +3,8 @@ import { ScrollView, SafeAreaView, StyleSheet,  ViewStyle,
 import React from 'react'
 import Flatcards from './components/Flatcards';
 import ElevatedCards from './components/ElevatedCards';
-
+import FancyCard from './components/FancyCard';
+import ActionCard from './components/ActionCard';
 
 export default function App() {
   const colorScheme = useColorScheme() ==='dark';
@@ -17,6 +18,8 @@ export default function App() {
       <ScrollView>
          <Flatcards />
          <ElevatedCards />
+         <FancyCard />
+         <ActionCard />
       </ScrollView>
     </SafeAreaView>
   )
